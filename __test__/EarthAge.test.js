@@ -27,7 +27,7 @@ describe('EarthAge', () => {
     });
     test('should determine how many years have passed since your past birthday in mars Years', () =>{
         let newAge = new EarthAge(37,25,50);
-        let ageDiff = newAge.earthYears - newAge.pastAge;
-        expect(ageDiff).toBe(6);
+        let marsDiff = newAge.yearsPassed();
+        expect(marsDiff).toEqual(6);
     });
 });

@@ -17,7 +17,8 @@ export class EarthAge {
         return Math.round(this.earthYears / 11.86);
     }
     yearsPassed () {
-        let ageDiff = this.earthYears - this.passedYear;
-
+        let ageDiff = this.earthYears - this.pastAge;
+        let marsDiff = Math.round(ageDiff / 1.88);
+        return marsDiff//+ "Mars Years have passed" 
     }
 }
