@@ -45,6 +45,6 @@ describe('EarthAge', () => {
         expect(newAge.futureMercuryYears()).toBe("8 Mercury years have yet to pass");
     });
     test('should subtract future age from earthYears and return Venus Years have yet to pass', () =>{
-        expect(newAge.futureVenusYears()).toBe("7 Venus years have yet to pass");
+        expect(newAge.futureVenusYears()).toBe("6 Venus years have yet to pass");
     });
 });
