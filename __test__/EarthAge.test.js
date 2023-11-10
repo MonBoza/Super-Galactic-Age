@@ -51,6 +51,6 @@ describe('EarthAge', () => {
         expect(newAge.futureMarsYears()).toBe("6 Mars years have yet to pass");
     });
     test('should subtract future age from earthYears and return jupiter Years have yet to pass', () =>{
-        expect(newAge.futureJupiterYears()).toBe(" Jupiter year(s) have yet to pass");
+        expect(newAge.futureJupiterYears()).toBe("1 Jupiter year(s) have yet to pass");
     });
 });
