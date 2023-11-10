@@ -17,15 +17,17 @@ export class EarthAge {
         return Math.round(this.earthYears / 11.86);
     }
     earthYearsPassed() {
-        let ageDiff = this.earthYears - this.pastAge;
+        const ageDiff = this.earthYears - this.pastAge;
         return ageDiff + " Earth years have passed"
     }
     mercuryYearsPassed() {
-        let ageDiff = this.earthYears - this.pastAge; 
+        const ageDiff = this.earthYears - this.pastAge; 
         return Math.round(ageDiff * 0.24) + " Mercury years have passed"
     }
     venusYearsPassed() {
-        let ageDiff = this.earthYears - this.pastAge; 
+        const ageDiff = this.earthYears - this.pastAge; 
         return Math.round(ageDiff * 0.62) + " Venus years have passed"
+    }
+    marsYearsPassed() {
     }
 }
