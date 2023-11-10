@@ -16,5 +16,8 @@ export class EarthAge {
     ageOnJupiter() {
         return Math.round(this.earthYears / 11.86);
     }
-   
+    yearsPassed () {
+        let ageDiff = this.earthYears - this.passedYear;
+
+    }
 }
