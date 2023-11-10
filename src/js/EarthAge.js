@@ -5,4 +5,7 @@ export class EarthAge {
     ageOnVenus() {
         return Math.round(this.earthYears * 0.62);
     }
+    ageOnMars() {
+        
+    }
 }
