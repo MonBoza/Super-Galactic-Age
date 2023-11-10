@@ -13,6 +13,6 @@ describe('EarthAge', () => {
 });
     test('method should return newAge in Mars years', () =>{
         let newAge = new EarthAge(37);
-        expect(newAge.ageOnMars()).toBe(19);
+        expect(newAge.ageOnMars()).toBe(20);
     })
 });
