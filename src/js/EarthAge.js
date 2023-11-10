@@ -16,19 +16,9 @@ export class EarthAge {
     ageOnJupiter() {
         return Math.round(this.earthYears / 11.86);
     }
-//     // yearsPassed () {
-//     //     let ageDiff = this.earthYears - this.pastAge;
-//     //     return {
-//     //         // earth: ageDiff,
-//     //         mercury:
-//     //         // venus:
-//     //         mars: this.calculatePlanets(ageDiff, * .24)
-//     //         // jupiter:
-//     //     }
-//     calculatePlanets(ageDiff, planetNum) {
-//         // const result = ageDiff * planetNum
-//         // return Math.round(result)
-//     }
-//     }
-// // }
+    earthYearsPassed() {
+        let ageDiff = this.earthYears - this.pastAge;
+        
+
+    }
 }
