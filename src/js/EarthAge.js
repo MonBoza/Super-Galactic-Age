@@ -40,6 +40,7 @@ export class EarthAge {
         const futureAgeDiff =this.futureAge - this.earthYears;
         return futureAgeDiff + " Earth years have yet to pass"
     }
+    futureMercuryYears() {
 
-
+    }
 }
