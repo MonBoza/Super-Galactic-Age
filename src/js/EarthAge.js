@@ -18,16 +18,18 @@ export class EarthAge {
     }
     earthYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge;
-        return ageDiff + " Earth years have passed"
+        return ageDiff + " Earth years have passed";
     }
     mercuryYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge; 
-        return Math.round(ageDiff * 0.24) + " Mercury years have passed"
+        return Math.round(ageDiff * 0.24) + " Mercury years have passed";
     }
     venusYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge; 
-        return Math.round(ageDiff * 0.62) + " Venus years have passed"
+        return Math.round(ageDiff * 0.62) + " Venus years have passed";
     }
     marsYearsPassed() {
+        const ageDiff = this.earthYears - this.pastAge; 
+        return Math.round(ageDiff / 1.88) + " Mars years have passed";
     }
 }

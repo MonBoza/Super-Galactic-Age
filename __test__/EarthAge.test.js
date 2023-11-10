@@ -33,6 +33,6 @@ describe('EarthAge', () => {
         expect(newAge.venusYearsPassed()).toBe("7 Venus years have passed");
     });
     test('should subtract past age from earthYears and return mars Years passed', () =>{
-        expect(newAge.marsYearsPassed()).toBe("6 Venus years have passed");
+        expect(newAge.marsYearsPassed()).toBe("6 Mars years have passed");
     });
 });
