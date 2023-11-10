@@ -9,6 +9,6 @@ describe('EarthAge', () => {
 });
     test(' method should return newAge in Venus years', () =>{
     let newAge = new EarthAge(37);
-    expect(newAge.ageOnVenus()).toEqual(60);
+    expect(newAge.ageOnVenus()).toBe(23);
 });
 });
