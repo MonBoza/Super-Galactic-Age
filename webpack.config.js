@@ -19,7 +19,7 @@ module.exports = {
     new ESLintPlugin(), 
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'document',
+      title: 'Super Galactic',
       template: './src/index.html',
       inject: 'body'
     })
