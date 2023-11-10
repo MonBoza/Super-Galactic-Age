@@ -42,9 +42,12 @@ describe('EarthAge', () => {
         expect(newAge.futureEarthYears()).toBe("13 Earth years have yet to pass");
     });
     test('should subtract future age from earthYears and return Mercury Years have yet to pass', () =>{
-        expect(newAge.futureMercuryYears()).toBe("8 Mercury years have yet to pass");
+        expect(newAge.futureMercuryYears()).toBe("3 Mercury years have yet to pass");
     });
     test('should subtract future age from earthYears and return Venus Years have yet to pass', () =>{
-        expect(newAge.futureVenusYears()).toBe("6 Venus years have yet to pass");
+        expect(newAge.futureVenusYears()).toBe("8 Venus years have yet to pass");
+    });
+    test('should subtract future age from earthYears and return Mars Years have yet to pass', () =>{
+        expect(newAge.futureMarsYears()).toBe("7 Mars years have yet to pass");
     });
 });

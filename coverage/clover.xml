@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1699659728205" clover="3.2.0">
-  <project timestamp="1699659728205" name="All files">
-    <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13" elements="36" coveredelements="36" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
+<coverage generated="1699660077876" clover="3.2.0">
+  <project timestamp="1699660077876" name="All files">
+    <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14" elements="37" coveredelements="37" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
     <file name="EarthAge.js" path="/Users/monboza/Desktop/Super-Galactic-Age/src/js/EarthAge.js">
-      <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
-      <line num="3" count="13" type="stmt"/>
-      <line num="4" count="13" type="stmt"/>
-      <line num="5" count="13" type="stmt"/>
+      <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
+      <line num="3" count="14" type="stmt"/>
+      <line num="4" count="14" type="stmt"/>
+      <line num="5" count="14" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
