@@ -52,4 +52,7 @@ export class EarthAge {
         const futureAgeDiff = this.earthYears - this.pastAge;
         return Math.round(futureAgeDiff / 1.88) + " Mars years have yet to pass";
     }
+    futureJupiterYears() {
+ 
+    }
 }
