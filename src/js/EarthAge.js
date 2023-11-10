@@ -32,4 +32,7 @@ export class EarthAge {
         const ageDiff = this.earthYears - this.pastAge; 
         return Math.round(ageDiff / 1.88) + " Mars years have passed";
     }
+   jupiterYearsPassed() {
+ 
+    }
 }

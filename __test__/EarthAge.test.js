@@ -35,4 +35,7 @@ describe('EarthAge', () => {
     test('should subtract past age from earthYears and return mars Years passed', () =>{
         expect(newAge.marsYearsPassed()).toBe("6 Mars years have passed");
     });
+    test('should subtract past age from earthYears and return jupiter Years passed', () =>{
+        expect(newAge.jupiterYearsPassed()).toBe("1 jupiter year(s) have passed");
+    });
 });
