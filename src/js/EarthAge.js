@@ -5,16 +5,16 @@ export class EarthAge {
         this.futureAge = futureAge;
     }
     ageOnMercury() {
-        return Math.round(this.earthYears * 0.24);
+        return parseFloat((this.earthYears * 0.24).toFixed(2));
     }
     ageOnVenus() {
-        return Math.round(this.earthYears * 0.62);
+        return parseFloat((this.earthYears * 0.62).toFixed(2));
     }
     ageOnMars() {
-        return Math.round(this.earthYears / 1.88);
+        return parseFloat((this.earthYears / 1.88).toFixed(2));
     }
     ageOnJupiter() {
-        return Math.round(this.earthYears / 11.86);
+        return parseFloat((this.earthYears / 11.86).toFixed(2));
     }
     earthYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge;
@@ -22,19 +22,19 @@ export class EarthAge {
     }
     mercuryYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge; 
-        return Math.round(ageDiff * 0.24) + " Mercury years have passed";
+        return (ageDiff * 0.24).toFixed(2) + " Mercury years have passed";
     }
     venusYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge; 
-        return Math.round(ageDiff * 0.62) + " Venus years have passed";
+        return (ageDiff * 0.62).toFixed(2) + " Venus years have passed";
     }
     marsYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge; 
-        return Math.round(ageDiff / 1.88) + " Mars years have passed";
+        return (ageDiff / 1.88).toFixed(2) + " Mars years have passed";
     }
     jupiterYearsPassed() {
         const ageDiff = this.earthYears - this.pastAge; 
-        return Math.round(ageDiff / 11.86) + " Jupiter year(s) have passed";
+        return (ageDiff / 11.86).toFixed(2) + " Jupiter year(s) have passed";
     }
     futureEarthYears() {
         const futureAgeDiff = this.futureAge - this.earthYears;
@@ -42,18 +42,18 @@ export class EarthAge {
     }
     futureMercuryYears() {
         const futureAgeDiff = this.earthYears - this.pastAge; 
-        return Math.round(futureAgeDiff * 0.24) + " Mercury years have yet to pass";
+        return (futureAgeDiff * 0.24).toFixed(2) + " Mercury years have yet to pass";
     }
     futureVenusYears() {
         const futureAgeDiff = this.earthYears - this.pastAge; 
-        return Math.round(futureAgeDiff * 0.64) + " Venus years have yet to pass";
+        return (futureAgeDiff * 0.64).toFixed(2) + " Venus years have yet to pass";
     }
     futureMarsYears() {
         const futureAgeDiff = this.earthYears - this.pastAge;
-        return Math.round(futureAgeDiff / 1.88) + " Mars years have yet to pass";
+        return (futureAgeDiff / 1.88).toFixed(2) + " Mars years have yet to pass";
     }
     futureJupiterYears() {
         const futureAgeDiff = this.earthYears - this.pastAge;
-        return Math.round(futureAgeDiff / 11.86) + " Jupiter year(s) have yet to pass";
+        return (futureAgeDiff / 11.86).toFixed(2) + " Jupiter year(s) have yet to pass";
     }
 }

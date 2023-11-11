@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1699660410135" clover="3.2.0">
-  <project timestamp="1699660410135" name="All files">
+<coverage generated="1699664830002" clover="3.2.0">
+  <project timestamp="1699664830002" name="All files">
     <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="15" elements="42" coveredelements="42" complexity="0" loc="27" ncloc="27" packages="1" files="1" classes="1"/>
     <file name="EarthAge.js" path="/Users/monboza/Desktop/Super-Galactic-Age/src/js/EarthAge.js">
       <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="15"/>

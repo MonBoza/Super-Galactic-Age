@@ -18,9 +18,9 @@
 
 ## This a fun application where a user can input their age, their past age and an age in the future and the app. will calculate the users ages in Mercury, Venus, Mars and Jupiter years.
 * Example: If the user inputs 37, 25, 50 the app will Display 
-* Current age Mercury: 9, Venus:23, Mars:20, Jupiter:3! 
-* Past Age calculates how many years have passed. Earth:12 Mercury: 3, Venus:7, Mars:6, Jupiter:1!
-* Future Age calculates how many years have yet to pass. Earth:13 Mercury: 3, Venus:8, Mars:6, Jupiter:1!
+* Current age Mercury: 8.88, Venus:22.94, Mars:19.68, Jupiter:3.12! 
+* Past Age calculates how many years have passed. Earth:"12 Earth years have passed" Mercury: "2.88 Mercury years have passed", Venus:"7.44 Venus years have passed.", Mars:"6.38 Mars years have passed, Jupiter:"1.01 years have passed."
+* Future Age calculates how many years have yet to pass. Earth:"13 earth years have yet to  pass" Mercury: "2.88 Mercury years have yet to pass", Venus:"7.68 venus years have yet to pass", Mars:"6.38 mars years have yet to pass", Jupiter:"1.01 years have yet to pass"
 
 ## Setup/Installation Requirements
 
