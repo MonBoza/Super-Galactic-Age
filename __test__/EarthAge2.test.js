@@ -5,12 +5,10 @@ describe('EarthAge2', () => {
     let newAge;
     
     beforeEach(() => {
-        newAge = new EarthAge2(37,25,50);
+        newAge = new EarthAge2(37);
     });
-    test('should create object with three ages currentAge, futureAge, and pastAge', () => {
+    test('should create object with three ages currentAge', () => {
         expect(newAge.currentAge).toBe(37);
-        expect(newAge.pastAge).toBe(25);
-        expect(newAge.futureAge).toBe(50);
     });
     test('should create a method that calculates age with planet', () => {
         expect(newAge.calculateAge(0.24, 37)).toBe(154);
@@ -27,4 +25,9 @@ describe('EarthAge2', () => {
     test('should calculate jupiterAge with currentAge', () =>{
         expect(newAge.jupiterAge()).toBe(3);
     });
+    test('should calculate years since a passed birthday', () =>{
+        let result = newAge.sincePastAge(25);
+        expect(result).toEqual({earth: 12});
+    });
+    
 });

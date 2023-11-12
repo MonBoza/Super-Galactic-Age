@@ -1,8 +1,6 @@
 export class EarthAge2 {
-    constructor(currentAge, pastAge, futureAge) {
+    constructor(currentAge) {
         this.currentAge = currentAge;
-        this.pastAge = pastAge;
-        this.futureAge = futureAge;
     }
     calculateAge(planet, age) {
         return parseInt(age / planet); 
@@ -19,4 +17,8 @@ export class EarthAge2 {
     jupiterAge() {
         return this.calculateAge(11.86, this.currentAge);
     }
+    sincePastAge(birthYear) {
+       
+    }
+
 } 
