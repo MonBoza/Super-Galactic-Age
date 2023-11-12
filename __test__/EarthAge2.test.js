@@ -15,4 +15,7 @@ describe('EarthAge2', () => {
     test('should create a method that calculates age with planet', () => {
         expect(newAge.calculateAge(0.24, 37)).toBe(154);
     });
+    test('should calculate mercuryAge with currentAge', () =>{
+        expect(newAge.mercuryAge()).toBe(154);
+    })
 });
