@@ -13,4 +13,7 @@ export class EarthAge2 {
     venusAge() {
         return this.calculateAge(0.62, this.currentAge);
     }
+    marsAge() {
+        return this.calculateAge(1.88, this.currentAge);
+    }
 } 
