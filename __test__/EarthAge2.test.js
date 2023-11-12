@@ -17,5 +17,8 @@ describe('EarthAge2', () => {
     });
     test('should calculate mercuryAge with currentAge', () =>{
         expect(newAge.mercuryAge()).toBe(154);
-    })
+    });
+    test('should calculate mercuryAge with currentAge', () =>{
+        expect(newAge.venusAge()).toBe(59);
+    });
 });
