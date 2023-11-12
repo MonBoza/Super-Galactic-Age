@@ -28,7 +28,7 @@ export class EarthAge2 {
     }
     untilFutureAge() {
         const futureAgeDiff = this.futureAge - this.currentAge;
-            return{
+        return{
             earth: futureAgeDiff,
             mercury: parseInt(futureAgeDiff / 0.24),
             venus: parseInt(futureAgeDiff / 0.62),
