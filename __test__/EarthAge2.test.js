@@ -22,10 +22,14 @@ describe('EarthAge2', () => {
     test('should calculate jupiterAge with currentAge', () =>{
         expect(newAge.jupiterAge()).toBe(3);
     });
-    test(' should calculate years since a passed birthday', () =>{
+    test(' should calculate years since a past birthday', () =>{
         let result = newAge.sincePastAge(25);
         expect(result).toEqual({earth: 12,
         mercury: 50, venus: 19, mars: 6, jupiter: 1});
     });
-    
+    test('should calculate years until future birthday', () => {
+        let result = newAge.untilFutureAge(50);
+        expect(result).toEqual({earth: 13,
+            mercury: 54, venus: 21, mars: 7, jupiter: 1});
+    });
 });

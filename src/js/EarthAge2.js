@@ -22,8 +22,11 @@ export class EarthAge2 {
             venus: parseInt(ageDiff / 0.62),
             mars: parseInt(ageDiff / 1.88),
             jupiter: parseInt(ageDiff / 11.86)
-        }
-       
+        }  
+    }
+    untilFutureAge(futureAge) {
+        // const futureAgeDiff = this.currentAge - futureAge;
+
     }
 
 } 
