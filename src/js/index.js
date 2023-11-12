@@ -18,7 +18,7 @@ function handleAgeForm(event) {
     results.append(p1);
     const p2 = document.createElement("p");
     const future = newAge.untilFutureAge();
-    p2.textContent = `Years until you future age:, Earth: ${future.earth}, Mercury: ${future.mercury}, Venus: ${future.venus}, Mars: ${future.mars}, Jupiter: ${future.jupiter}`;
+    p2.textContent = `Years until you future age: Earth: ${future.earth}, Mercury: ${future.mercury}, Venus: ${future.venus}, Mars: ${future.mars}, Jupiter: ${future.jupiter}`;
     results.append(p2);
 }
 
