@@ -2,22 +2,27 @@ export class EarthAge2 {
     constructor(currentAge) {
         this.currentAge = currentAge;
     }
-    calculateAge(planet, age) {
-        return parseInt(age / planet); 
-    }
     mercuryAge() {
-        return this.calculateAge(0.24, this.currentAge);
+        return parseInt(this.currentAge / 0.24);
     }
     venusAge() {
-        return this.calculateAge(0.62, this.currentAge);
+        return parseInt(this.currentAge / 0.62);
     }
     marsAge() {
-        return this.calculateAge(1.88, this.currentAge);
+        return parseInt(this.currentAge / 1.88);
     }
     jupiterAge() {
-        return this.calculateAge(11.86, this.currentAge);
+        return parseInt(this.currentAge / 11.86);
     }
-    sincePastAge(birthYear) {
+    sincePastAge(pastAge) {
+        const ageDiff = this.currentAge - pastAge;
+        return {
+            earth: ageDiff,
+            mercury: parseInt(ageDiff / 0.24),
+            venus: parseInt(ageDiff / 0.62),
+            mars: parseInt(ageDiff / 1.88),
+            jupiter: parseInt(ageDiff / 11.86)
+        }
        
     }
 
