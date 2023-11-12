@@ -5,35 +5,35 @@ export class EarthAge2 {
         this.futureAge = futureAge;
     }
     mercuryAge() {
-        return parseInt(this.currentAge / 0.24);
+        return Number((this.currentAge / 0.24).toFixed(2));
     }
     venusAge() {
-        return parseInt(this.currentAge / 0.62);
+        return Number((this.currentAge / 0.62).toFixed(2));
     }
     marsAge() {
-        return parseInt(this.currentAge / 1.88);
+        return Number((this.currentAge / 1.88).toFixed(2));
     }
     jupiterAge() {
-        return parseInt(this.currentAge / 11.86);
+        return Number((this.currentAge / 11.86).toFixed(2));
     }
     sincePastAge() {
         const ageDiff = this.currentAge - this.pastAge;
         return {
             earth: ageDiff,
-            mercury: parseInt(ageDiff / 0.24),
-            venus: parseInt(ageDiff / 0.62),
-            mars: parseInt(ageDiff / 1.88),
-            jupiter: parseInt(ageDiff / 11.86)
+            mercury: Number((ageDiff / 0.24).toFixed(2)),
+            venus: Number((ageDiff / 0.62).toFixed(2)),
+            mars: Number((ageDiff / 1.88).toFixed(2)),
+            jupiter: Number((ageDiff / 11.86).toFixed(2))
         }; 
     }
     untilFutureAge() {
         const futureAgeDiff = this.futureAge - this.currentAge;
         return{
             earth: futureAgeDiff,
-            mercury: parseInt(futureAgeDiff / 0.24),
-            venus: parseInt(futureAgeDiff / 0.62),
-            mars: parseInt(futureAgeDiff / 1.88),
-            jupiter: parseInt(futureAgeDiff / 11.86)
+            mercury: Number((futureAgeDiff / 0.24).toFixed(2)),
+            venus: Number((futureAgeDiff / 0.62).toFixed(2)),
+            mars: Number((futureAgeDiff / 1.88).toFixed(2)),
+            jupiter: Number((futureAgeDiff / 11.86).toFixed(2))
         };
     }
 
