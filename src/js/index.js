@@ -10,8 +10,16 @@ function handleAgeForm(event) {
     const futureAge = document.querySelector("input[name='futureAge']").value;
     let newAge = new EarthAge2(currentAge, pastAge, futureAge);
     let current = "Mercury: " + newAge.mercuryAge() + ", " + "Venus: " + newAge.venusAge() + ", " + "Mars: " + newAge.marsAge() + ", " + "Jupiter: " + newAge.jupiterAge();
-    const results = document.getElementById("results");
+    const results = document.getElementById("current-results");
     results.textContent = "Your Current Age on these Planets: " + current;
+    const p1 = document.createElement("p");
+    const past = newAge.sincePastAge();
+    p1.textContent = `Years Since your choice of past birthday: Earth: ${past.earth}, Mercury: ${past.mercury}, Venus: ${past.venus}, Mars: ${past.mars}, Jupiter: ${past.jupiter}`;
+    results.append(p1);
+    const p2 = document.createElement("p");
+    const future = newAge.untilFutureAge();
+    p2.textContent = `Years until you future age:, Earth: ${future.earth}, Mercury: ${future.mercury}, Venus: ${future.venus}, Mars: ${future.mars}, Jupiter: ${future.jupiter}`;
+    results.append(p2);
 }
 
 window.addEventListener("DOMContentLoaded", function () {

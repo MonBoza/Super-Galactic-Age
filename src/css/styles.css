@@ -15,6 +15,12 @@ body:hover {
     color:#ffffff
 }
 
+div#output{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 
 .main{
     position: fixed;
