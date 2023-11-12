@@ -12,7 +12,7 @@ describe('EarthAge2', () => {
         expect(newAge.pastAge).toBe(25);
         expect(newAge.futureAge).toBe(50);
     });
-    test('should calculate currentAge on different planet years', () => {
-        expect(newAge.calculatePlanets()).toBe("Mercury: 8.88 Venus: 22.94 Mars: 1968 Jupiter: 3.12");
+    test('should create a method that calculates age with planet', () => {
+        expect(newAge.calculateAge(0.24, 37)).toBe(154);
     });
 });
