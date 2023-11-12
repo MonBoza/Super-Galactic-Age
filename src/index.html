@@ -6,24 +6,32 @@
   <title>Super Galactic Age</title>
 </head>
 <body>
-  <div>
-    <form class="id">
-      <label id="currentAge">Put Your <strong>Current Age</strong>: </label>
-      <input for="pastAge" name="pastAge" type="number">
-      <br />
-      <br />
-      <label id="pastAge">Pick an age from your <strong>Past</strong>: </label>
-      <input for="pastAge" name="pastAge" type="number">
-      <br />
-      <br />
-      <label id="futureAge">Pick an age in the <strong>Future</strong>: </label>
-      <input for="futureAge" name="futureAge" type="number">
-      <br />
-      <br />
-      <button type="submit">SUBMIT</button>
-    </form>
-  </div>
-  <div class="results">
+  <h1>Super Galactic Age Calculator</h1>
+
+  <h2>Let see your Space Age</h2>
+  <div class="main"></div>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form id="age-form">
+                <div class="mb-3">
+                    <label for="currentAge" class="form-label">Put Your <strong>Current Age</strong>:</label>
+                    <input type="number" class="form-control" id="currentAge" name="currentAge">
+                </div>
+                <div class="mb-3">
+                    <label for="pastAge" class="form-label">Pick an age from your <strong>Past</strong>:</label>
+                    <input type="number" class="form-control" id="pastAge" name="pastAge">
+                </div>
+                <div class="mb-3">
+                    <label for="futureAge" class="form-label">Pick an age in the <strong>Future</strong>:</label>
+                    <input type="number" class="form-control" id="futureAge" name="futureAge">
+                </div>
+                <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</div>
+  <div id="results">
     <p></p>
   </div>
   
