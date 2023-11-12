@@ -24,4 +24,7 @@ describe('EarthAge2', () => {
     test('should calculate marsAge with currentAge', () =>{
         expect(newAge.marsAge()).toBe(19);
     });
+    test('should calculate jupiterAge with currentAge', () =>{
+        expect(newAge.jupiterAge()).toBe(3);
+    });
 });

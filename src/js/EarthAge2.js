@@ -16,4 +16,7 @@ export class EarthAge2 {
     marsAge() {
         return this.calculateAge(1.88, this.currentAge);
     }
+    jupiterAge() {
+
+    }
 } 
